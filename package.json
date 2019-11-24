@@ -1,0 +1,48 @@
+{
+    "name": "javascript-algorithms-and-data-structures",
+    "version": "1.0.0",
+    "description": "Algorithms and data-structures implemented on JavaScript",
+    "main": "index.js",
+    "scripts": {
+      "lint": "eslint ./src/*",
+      "test": "jest",
+      "ci": "npm run lint && npm run test -- --coverage"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/JTangming/algorithms.git"
+    },
+    "keywords": [
+      "computer-science",
+      "algorithms",
+      "data-structures",
+      "javascript",
+      "algorithm",
+      "javascript-algorithms",
+      "sorting-algorithms",
+      "graph",
+      "tree",
+      "interview",
+      "interview-preparation"
+    ],
+    "author": "Jason",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/JTangming/algorithms.git"
+    },
+    "homepage": "https://github.com/JTangming/algorithms#readme",
+    "devDependencies": {
+      "@babel/cli": "^7.4.4",
+      "@babel/preset-env": "^7.4.5",
+      "@types/jest": "^24.0.15",
+      "eslint": "^6.0.1",
+      "eslint-config-airbnb": "^17.1.0",
+      "eslint-plugin-import": "^2.18.0",
+      "eslint-plugin-jest": "^22.7.1",
+      "eslint-plugin-jsx-a11y": "^6.2.1",
+      "eslint-plugin-react": "^7.14.2",
+      "husky": "^2.5.0",
+      "jest": "^24.8.0"
+    },
+    "dependencies": {}
+  }
