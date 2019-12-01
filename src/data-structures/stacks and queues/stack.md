@@ -1,4 +1,4 @@
-# 栈
+### 栈
 
 在计算机科学中，**栈(stack)** 用作表示元素的集合，具有如下两种操作:
 
@@ -11,7 +11,7 @@
 
 ![Stack](https://upload.wikimedia.org/wikipedia/commons/b/b4/Lifo_stack.png)
 
-## 参考
+### References
 
 - [Wikipedia](https://en.wikipedia.org/wiki/Stack_(abstract_data_type))
 - [YouTube](https://www.youtube.com/watch?v=wjI1WNcIntg&list=PLLXdhg_r2hKA7DPDsunoDZ-Z769jWn4R8&index=3&)
