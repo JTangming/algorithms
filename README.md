@@ -8,7 +8,12 @@
 
 ## 数据结构
 
-### todo
+### stacks and queues
+- [队列](https://github.com/JTangming/algorithms/blob/master/src/data-structures/stacks%20and%20queues/queue.md)
+- [栈](https://github.com/JTangming/algorithms/blob/master/src/data-structures/stacks%20and%20queues/stack.md)
+
+### tree
+- [二叉树](https://github.com/JTangming/algorithms/blob/master/src/data-structures/tree/%E4%BA%8C%E5%8F%89%E6%A0%91.md)
 
 ## 算法
 
