@@ -25,6 +25,7 @@
 - [最长公共前缀](https://github.com/JTangming/algorithms/blob/master/src/algorithms/string/%E6%9C%80%E9%95%BF%E5%85%AC%E5%85%B1%E5%89%8D%E7%BC%80.md)
 - [编辑距离](https://github.com/JTangming/algorithms/blob/080176ccf5420ab0faeef232caddc219fa61288c/src/algorithms/dp-recursive/%E7%BC%96%E8%BE%91%E8%B7%9D%E7%A6%BB.md)
 - [最长回文子串](https://github.com/JTangming/algorithms/blob/master/src/algorithms/dp-recursive/%E6%9C%80%E9%95%BF%E5%9B%9E%E6%96%87%E5%AD%90%E4%B8%B2.md)
+- [雨水收集](./src/algorithms/uncategorized/雨水收集.md)
 
 
 ## Reference
