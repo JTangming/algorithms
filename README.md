@@ -19,12 +19,12 @@
 
 ### 递归与动态规划
 - [递归和动态规划基础及举例](https://github.com/JTangming/blog/issues/31)
-- [不同路径](./src/algorithms/dp-recursive/%E4%B8%8D%E5%90%8C%E8%B7%AF%E5%BE%84.md)
-- [最小路径和](./src/algorithms/dp-recursive/%E6%9C%80%E5%B0%8F%E8%B7%AF%E5%BE%84%E5%92%8C.md)
-- [最长公共子序列[子串]](./src/algorithms/dp-recursive/%E6%9C%80%E9%95%BF%E5%85%AC%E5%85%B1%E5%AD%90%E5%BA%8F%E5%88%97%5B%E5%AD%90%E4%B8%B2%5D.md)
-- [最长公共前缀](./src/algorithms/string/%E6%9C%80%E9%95%BF%E5%85%AC%E5%85%B1%E5%89%8D%E7%BC%80.md)
-- [编辑距离](https://github.com/JTangming/algorithms/blob/080176ccf5420ab0faeef232caddc219fa61288c/src/algorithms/dp-recursive/%E7%BC%96%E8%BE%91%E8%B7%9D%E7%A6%BB.md)
-- [最长回文子串](./src/algorithms/dp-recursive/%E6%9C%80%E9%95%BF%E5%9B%9E%E6%96%87%E5%AD%90%E4%B8%B2.md)
+- [不同路径](./src/algorithms/dp-recursive/不同路径.md)
+- [最小路径和](./src/algorithms/dp-recursive/最小路径和.md)
+- [最长公共子序列[子串]](./src/algorithms/dp-recursive/最长公共子序列[子串].md)
+- [最长公共前缀](./src/algorithms/string/最长公共前缀.md)
+- [编辑距离](./src/algorithms/dp-recursive/编辑距离.md)
+- [最长回文子串](./src/algorithms/dp-recursive/最长回文子串.md)
 
 ### uncategorized
 - [雨水收集](./src/algorithms/uncategorized/雨水收集.md)
