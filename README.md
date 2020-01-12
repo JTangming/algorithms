@@ -11,6 +11,7 @@
 ### stacks and queues
 - [队列](./src/data-structures/stacks%20and%20queues/queue.md)
 - [栈](./src/data-structures/stacks%20and%20queues/stack.md)
+- [链表](./src/data-structures/linked-list/index.md)
 
 ### tree
 - [二叉树](./src/data-structures/tree/%E4%BA%8C%E5%8F%89%E6%A0%91.md)
