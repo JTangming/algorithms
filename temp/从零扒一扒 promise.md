@@ -2,8 +2,21 @@
 
 在开发过程中，很多时候都在熟练的使用 Promise/A+ 规范，然而有时在使用的时候发现并不是很了解它的底层实现，下面扒一扒它的实现。
 
+### Promises/A+规范
+
+> Promise 是 JS 异步编程中的重要概念，异步抽象处理对象，是目前比较流行 Javascript 异步编程解决方案之一。
+
+**术语**
+- 解决 (fulfill): 指一个 promise 成功时进行的一系列操作，如状态的改变、回调的执行。虽然规范中用 fulfill 来表示解决，但在后世的 promise 实现多以 resolve 来指代之。
+- 拒绝（reject): 指一个 promise 失败时进行的一系列操作。
+- 拒因 (reason): 也就是拒绝原因，指在 promise 被拒绝时传递给拒绝回调的值。
+- 终值（eventual value）: 所谓终值，指的是 promise 被解决时传递给解决回调的值，由于 promise 有一次性的特征，因此当这个值被传递时，标志着 promise 等待态的结束，故称之终值，有时也直接简称为值（value）。
+- Promise: promise 是一个拥有 then 方法的对象或函数，其行为符合本规范。
+- thenable: 是一个定义了 then 方法的对象或函数，文中译作“拥有 then 方法”。
+- 异常（exception）: 是使用 throw 语句抛出的一个值。
+
 ### 异步回调
-Promise 解决的就是异步任务处理问题，处理一步任务问题最简单的办法就是异步回调，简单举例如下（假设有一个异步任务 asyncJob1，它执行完成后要执行 asyncJob2）：
+Promise 解决的就是异步任务处理问题，处理异步任务问题最简单的办法就是异步回调，简单举例如下（假设有一个异步任务 asyncJob1，它执行完成后要执行 asyncJob2）：
 
 ```js
 // asyncJob2 作为参数传给 asyncJob1，在它完成某些操作后调用
