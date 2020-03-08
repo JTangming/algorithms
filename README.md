@@ -30,6 +30,9 @@
 ### 分治法
 - [最大子序和](./src/algorithms/divide-and-conquer/最大子序和.md)
 
+### 链表
+- [合并两个有序链表](./src/algorithms/linked-list/合并两个有序链表.md)
+
 ### uncategorized
 - [雨水收集](./src/algorithms/uncategorized/雨水收集.md)
 
