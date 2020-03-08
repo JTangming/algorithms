@@ -27,6 +27,9 @@
 - [编辑距离](./src/algorithms/dp-recursive/编辑距离.md)
 - [最长回文子串](./src/algorithms/dp-recursive/最长回文子串.md)
 
+### 分治法
+- [最大子序和](./src/algorithms/devide-and-conquer/最大子序和.md)
+
 ### uncategorized
 - [雨水收集](./src/algorithms/uncategorized/雨水收集.md)
 
