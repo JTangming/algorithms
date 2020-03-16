@@ -26,6 +26,7 @@
 - [最长公共前缀](./src/algorithms/string/最长公共前缀.md)
 - [编辑距离](./src/algorithms/dp-recursive/编辑距离.md)
 - [最长回文子串](./src/algorithms/dp-recursive/最长回文子串.md)
+- [零钱兑换](./src/algorithms/dp-recursive/零钱兑换.md)
 
 ### 分治法
 - [最大子序和](./src/algorithms/divide-and-conquer/最大子序和.md)
