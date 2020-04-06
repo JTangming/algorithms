@@ -33,6 +33,8 @@
 
 ### 链表
 - [合并两个有序链表](./src/algorithms/linked-list/合并两个有序链表.md)
+- [反转链表](./src/algorithms/linked-list/反转链表.md)
+- [环形链表](./src/algorithms/linked-list/环形链表.md)
 
 ### uncategorized
 - [雨水收集](./src/algorithms/uncategorized/雨水收集.md)
