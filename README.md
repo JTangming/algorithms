@@ -1,10 +1,5 @@
 # JavaScript 算法与数据结构
-
-![bg](./assets/bg.jpg)
-
-本仓库用于 JavaScript 的算法与数据结构学习记录。
-
-> 相关引用将会加上备注或者索引，经典知识的总结难免有雷同，敬请见谅！
+Algorithms and data structures implemented in JavaScript with explanations, for further readings.
 
 ## 数据结构
 
@@ -56,3 +51,5 @@
 ![sort](./assets/algorithm/sort/sort.png)
 
 [十大排序算法](https://github.com/hustcc/JS-Sorting-Algorithm)
+
+> 如有相关引用则将会在文中加上备注或者索引，经典知识的总结难免有雷同，敬请见谅！
