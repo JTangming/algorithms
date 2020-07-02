@@ -1,4 +1,4 @@
-# JavaScript 算法与数据结构
+# Algorithms and data structures
 Algorithms and data structures implemented in JavaScript with explanations, for further readings.
 
 ## 数据结构
