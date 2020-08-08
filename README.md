@@ -25,9 +25,10 @@ Algorithms and data structures implemented in JavaScript with explanations, for 
 
 ### 分治法
 - [最大子序和](./src/algorithms/divide-and-conquer/最大子序和.md)
+- [多数元素](./src/algorithms/divide-and-conquer/多数元素.md)
 
 ### 链表
-- [合并两个有序链表](./src/algorithms/linked-list/合并两个有序链表.md)
+- [合并有序链表](./src/algorithms/linked-list/合并有序链表.md)
 - [反转链表](./src/algorithms/linked-list/反转链表.md)
 - [环形链表](./src/algorithms/linked-list/环形链表.md)
 
