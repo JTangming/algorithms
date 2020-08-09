@@ -31,6 +31,8 @@ Algorithms and data structures implemented in JavaScript with explanations, for 
 - [合并有序链表](./src/algorithms/linked-list/合并有序链表.md)
 - [反转链表](./src/algorithms/linked-list/反转链表.md)
 - [环形链表](./src/algorithms/linked-list/环形链表.md)
+- [分割链表](./src/algorithms/linked-list/分割链表.md)
+- [链表相交](./src/algorithms/linked-list/链表相交.md)
 
 ### uncategorized
 - [雨水收集](./src/algorithms/uncategorized/雨水收集.md)
