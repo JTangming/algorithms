@@ -37,5 +37,7 @@ var deleteNode = function(node) {
 
 相对来说，数组在访问局部性这一块较链表更具优势。
 
+> 参考链接：https://mp.weixin.qq.com/s/U8a8KTUH5oPc999dOIbbhg
+
 #### 链表结构
 具体直接参考wiki [链表结构](https://zh.wikipedia.org/wiki/%E9%93%BE%E8%A1%A8)
