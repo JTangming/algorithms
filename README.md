@@ -48,6 +48,9 @@ Algorithms and data structures implemented in JavaScript with explanations, for 
 
 ![Big O graphs](./assets/big-o-graph.png)
 
+#### Reference
+- [时间复杂度 O(log n) 意味着什么？](https://juejin.cn/post/6844903481191432206)
+
 ### 十大排序经典算法
 > 引用自：https://github.com/hustcc/JS-Sorting-Algorithm
 
