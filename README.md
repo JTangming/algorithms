@@ -9,7 +9,7 @@ Algorithms and data structures implemented in JavaScript with explanations, for 
 - [链表](./src/data-structures/linked-list/index.md)
 
 ### tree
-- [二叉树](./src/data-structures/tree/%E4%BA%8C%E5%8F%89%E6%A0%91.md)
+- [二叉树](./src/data-structures/tree/index.md)
 
 ## 算法
 
