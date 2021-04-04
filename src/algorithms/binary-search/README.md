@@ -40,3 +40,6 @@ var search = function(nums, target) {
     return ret;
 };
 ```
+
+时间复杂度：O(log N)，即为二分查找需要的次数。
+空间复杂度：O(1).
