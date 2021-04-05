@@ -118,3 +118,6 @@ Trie.prototype.startsWith = function(prefix) {
  * var param_3 = obj.startsWith(prefix)
  */
 ```
+
+如依次插入 apple 和 app 后的结果：
+![demo-result](./../../../../assets/data-structrue/prefix-tree/demo-result.jpg)
