@@ -4,12 +4,13 @@ Algorithms and data structures implemented in JavaScript with explanations, for 
 ## 数据结构
 
 ### stacks and queues
-- [队列](./src/data-structures/stacks%20and%20queues/queue.md)
-- [栈](./src/data-structures/stacks%20and%20queues/stack.md)
+- [队列](./src/data-structures/stacks-and-queues/queue.md)
+- [栈](./src/data-structures/stacks-and-queues/stack.md)
 - [链表](./src/data-structures/linked-list/index.md)
 
 ### tree
-- [二叉树](./src/data-structures/tree/index.md)
+- [二叉树](./src/data-structures/tree/binary-tree/index.md)
+- [字典树（前缀树）](./src/data-structures/tree/prefix-tree/index.md)
 
 ## 算法
 
