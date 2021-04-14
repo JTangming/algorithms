@@ -26,5 +26,6 @@
 - HEAPIFY 建堆：把一个乱序的数组变成堆结构的数组，时间复杂度为 O(n)；
 - HEAPPUSH：把一个数值放进已经是堆结构的数组中，并保持堆结构，时间复杂度为 O(log n)；
 - HEAPPOP：从最大堆中取出最大值或从最小堆中取出最小值，并将剩余的数组保持堆结构，时间复杂度为 O(log n)；
-- HEAPSORT：借由 HEAPIFY 建堆和 HEAPPOP 堆数组进行排序，时间复杂度为 O(nlog n)，空间复杂度为 O(1)；
-- 堆结构的一个常见应用是建立优先队列（Priority Queue）。
+- HEAPSORT：借由 HEAPIFY 建堆和 HEAPPOP 堆数组进行排序，时间复杂度为 O(nlog n)，空间复杂度为 O(1).
+
+堆结构的一个常见应用是建立优先队列（Priority Queue）。
