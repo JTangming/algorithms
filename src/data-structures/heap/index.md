@@ -29,3 +29,76 @@
 - HEAPSORT：借由 HEAPIFY 建堆和 HEAPPOP 堆数组进行排序，时间复杂度为 O(nlog n)，空间复杂度为 O(1).
 
 堆结构的一个常见应用是建立优先队列（Priority Queue）。
+
+#### HEAPIFY（创建一个大「小」顶堆）
+常见的创建操作有两种：插入式建堆和原地创建
+
+堆化统一用到的 swap 方法如下：
+```js
+function swap(items, i, j) {
+    let temp = items[i]
+    items[i] = items[j]
+    items[j] = temp
+}
+```
+
+**1. 插入式建堆**
+- 将节点插入（push）到队尾；
+- 遵循自下往上堆化的过程，即将插入节点与其父节点比较，如果插入节点大于父节点（大顶堆）或插入节点小于父节点（小顶堆），则插入节点与父节点调整位置；
+- 重复上一步，直到根节点为止。
+```js
+function insert(index) {
+    while (index > 1 && nums[Math.floor(index/2)] > nums[index]) {
+        swap(Math.floor(index/2), index); //交换
+        index = Math.floor(index/2);
+    }
+}
+```
+
+**2. 原地堆化**
+1）将节点与其父节点比较，如果节点大于父节点（大顶堆）或节点小于父节点（小顶堆），则节点与父节点调整位置
+```js
+function buildHeap(nums) {
+    for (let i = 1; i <= nums.length; i++) {
+        heapify(nums, i);
+    }
+}
+// 原地堆化成一个小顶堆
+function heapify(nums, index) {
+    while (index > 0 && nums[index] < nums[Math.floor(index / 2)]) {
+        swap(nums, index, Math.floor(index / 2));
+        index = Math.floor(index / 2);
+    }
+}
+```
+
+2）将节点与其左右子节点比较，如果存在左右子节点大于该节点（大顶堆）或小于该节点（小顶堆），则将子节点的最大值（大顶堆）或最小值（小顶堆）与之交换
+```js
+function buildHeap(nums) {
+    let len = nums.length;
+    // 找到最后一个非叶子节点，开始遍历并堆化
+    for (let i = Math.floor(len / 2); i > 0; i--) {
+        heapify1(nums, i, len);
+    }
+}
+// 原地堆化成一个小顶堆
+function heapify1(nums, index, len) {
+    while (true) {
+        let j = 2 * index;
+        // 找到子节点中最小的节点
+        if (j + 1 <= len && nums[j] > nums[j + 1]) {
+            j++;
+        }
+        if (nums[index] > nums[j]) {
+            swap(nums, index, j);
+        } else break;
+        index = j;
+    }
+}
+```
+
+> 建堆的时间复杂度为 O(n）
+
+#### Reference
+- [堆排序、Top K、中位数等问题](https://github.com/sisterAn/JavaScript-Algorithms/issues/60)
+- [堆排序](https://github.com/chefyuan/algorithm-base/blob/main/animation-simulation/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E5%92%8C%E7%AE%97%E6%B3%95/%E5%A0%86%E6%8E%92%E5%BA%8F.md)
