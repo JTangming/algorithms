@@ -6,6 +6,44 @@
 
 #### 单链表的倒数第 k 个节点 题的拓展
 
+链表中倒数第k个节点原题：https://leetcode-cn.com/problems/lian-biao-zhong-dao-shu-di-kge-jie-dian-lcof/
+
+示例：
+```
+给定一个链表: 1->2->3->4->5, 和 k = 2.
+
+返回链表 4->5.
+```
+
+```js
+/**
+ * Definition for singly-linked list.
+ * function ListNode(val) {
+ *     this.val = val;
+ *     this.next = null;
+ * }
+ */
+/**
+ * @param {ListNode} head
+ * @param {number} k
+ * @return {ListNode}
+ */
+var getKthFromEnd = function(head, k) {
+    let former = head;
+    let latter = head;
+    let n = 0;
+    
+    while (former !== null) {
+        former = former.next;
+        if (n < k) {
+            n++;
+        } else latter = latter.next;
+    }
+
+    return latter;
+};
+```
+
 转换成找到单链表的倒数第 k+1 个节点即可，注意要考虑到边界溢出，引入了头结点。
 
 ```js
