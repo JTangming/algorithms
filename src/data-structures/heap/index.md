@@ -85,15 +85,17 @@ function buildHeap(nums) {
 // 原地堆化成一个小顶堆
 function heapify1(nums, index, len) {
     while (true) {
-        let j = 2 * index;
+        let minIndex = index;
         // 找到子节点中最小的节点
-        if (j + 1 <= len && nums[j] > nums[j + 1]) {
-            j++;
+        if (2 * index <= len && nums[index] > nums[2 * index]) {
+            minIndex = 2 * index;
         }
-        if (nums[index] > nums[j]) {
-            swap(nums, index, j);
-        } else break;
-        index = j;
+        if (2 * index + 1 <= len && nums[minIndex] > nums[2 * index + 1]) {
+            minIndex = 2 * index + 1;
+        }
+        if (minIndex === index) break;
+        swap(nums, minIndex, index);
+        index = minIndex;
     }
 }
 ```
