@@ -64,12 +64,13 @@ function buildHeap(nums) {
     }
 }
 // 原地堆化成一个小顶堆
-function heapify(nums, index) {
-    while (index > 0 && nums[index] < nums[Math.floor(index / 2)]) {
-        swap(nums, index, Math.floor(index / 2));
-        index = Math.floor(index / 2);
+function heapify(items, i) {
+    // 自下而上式堆化
+    while (Math.floor(i/2) > 0 && items[i] < items[Math.floor(i/2)]) {  
+        swap(items, i, Math.floor(i/2)); // 交换 
+        i = Math.floor(i/2); 
     }
-}
+} 
 ```
 
 2）将节点与其左右子节点比较，如果存在左右子节点大于该节点（大顶堆）或小于该节点（小顶堆），则将子节点的最大值（大顶堆）或最小值（小顶堆）与之交换
