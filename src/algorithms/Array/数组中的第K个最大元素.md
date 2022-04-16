@@ -74,3 +74,5 @@ let swap = (arr, i , j) => {
     arr[j] = temp
 }    
 ```
+
+类似的题型：https://leetcode-cn.com/problems/zui-xiao-de-kge-shu-lcof/submissions/
