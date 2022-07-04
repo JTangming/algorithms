@@ -56,6 +56,7 @@ function insert(index) {
 ```
 
 **2. 原地堆化**
+
 1）将节点与其父节点比较，如果节点大于父节点（大顶堆）或节点小于父节点（小顶堆），则节点与父节点调整位置
 ```js
 function buildHeap(nums) {
