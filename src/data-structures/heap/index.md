@@ -87,7 +87,7 @@ function heapify1(nums, index, len) {
     while (true) {
         let minIndex = index;
         // 找到子节点中最小的节点
-        if (2 * index <= len && nums[index] > nums[2 * index]) {
+        if (2 * index <= len && nums[minIndex] > nums[2 * index]) {
             minIndex = 2 * index;
         }
         if (2 * index + 1 <= len && nums[minIndex] > nums[2 * index + 1]) {
